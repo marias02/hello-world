@@ -17,5 +17,7 @@ p {
 }
 
 #header-title{
-  background-image: "https://res.cloudinary.com/dqwagsh1g/image/upload/v1684964202/ny-wallpaper_aecsj0.png";
+  background-image: url("https://res.cloudinary.com/dqwagsh1g/image/upload/v1684964202/ny-wallpaper_aecsj0.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
