@@ -1,47 +1,85 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Developer Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div id="header-title">
-        <h3>Maria Arias Miranda</h3>
-        <h1>Software Engineer</h1>
-    </div>
+  <header>
+    <nav>
+      <div class="container">
+        <h1 class="logo">Your Name</h1>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-    <div id="about">
-        <h1>About</h1>
-        <p>
-            I fell in love with Software Engineering once I found out that it had no limits.
-            I could build anything I would want with it, and the list would go on and on.
-            Coding makes me feel like there is nothing that I cannot do. 
-            I am excited to see where this journey takes me, and all the amazing things that 
-            I can build with it.
-        </p>
+  <section id="hero">
+    <div class="container">
+      <h2>Welcome to My Portfolio</h2>
+      <p>I'm a web developer passionate about creating beautiful and functional websites.</p>
     </div>
+  </section>
 
-    <div id="university-projects">
-        <h1>University Projects</h1>
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dignissim justo nec enim pharetra aliquet.
+        Mauris at ullamcorper odio, et fermentum felis. Sed vel tortor efficitur, vehicula turpis non, feugiat ipsum.</p>
     </div>
+  </section>
 
-    <div id="my-projects">
-        <h1>My Projects</h1>
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Project Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id enim et est hendrerit dapibus vitae at
+          arcu. Quisque fermentum faucibus tincidunt.</p>
+      </div>
+      <div class="project">
+        <h3>Project Title</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id enim et est hendrerit dapibus vitae at
+          arcu. Quisque fermentum faucibus tincidunt.</p>
+      </div>
     </div>
+  </section>
 
-    <div id="contact">
-        <h1>Contact</h1>
-        <p>I'll put something here eventually!</p>
-        <div id="contact-links">
-            <a href="">email</a>
-            <a href="">phone number</a>
-            <a href="">linkedin</a>
-            <a href="">angellist</a>
-            <a href="">github</a>
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
         </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
     </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Your Name | Web Developer</p>
+    </div>
+  </footer>
+
 </body>
+
 </html>
