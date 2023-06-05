@@ -3,6 +3,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 .container {
@@ -43,6 +44,8 @@ header {
   background-color: #f1f1f1;
   padding: 80px 0;
   text-align: center;
+  background-image: url("https://res.cloudinary.com/dqwagsh1g/image/upload/v1685995137/new_york_rjmesd.jpg");
+  height: 100%;
 }
 
 /* About section */
