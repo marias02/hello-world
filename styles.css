@@ -44,7 +44,7 @@ header {
   background-color: #f1f1f1;
   padding: 80px 0;
   text-align: center;
-  background-image: url("https://res.cloudinary.com/dqwagsh1g/image/upload/v1685995137/new_york_rjmesd.jpg");
+  /* background-image: url("https://res.cloudinary.com/dqwagsh1g/image/upload/v1685995137/new_york_rjmesd.jpg"); */
   height: 100%;
 }
 
@@ -116,4 +116,12 @@ footer {
 
 footer p {
   margin: 0;
+}
+
+html {
+  background: url(images/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
