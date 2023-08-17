@@ -46,10 +46,10 @@ header {
   text-align: center;
   background-position: center;
   background-size: cover;
-  background-image: "images/modern_building_bg.jpg";
+  background-image: url("https://res.cloudinary.com/dqwagsh1g/image/upload/v1692297073/Urban_area_building_background_ylxwg1.jpg");
   background-attachment: fixed;
-  /* background-image: url("https://res.cloudinary.com/dqwagsh1g/image/upload/v1685995137/new_york_rjmesd.jpg"); */
   height: 100%;
+  width: 100%;
 }
 
 /* About section */
