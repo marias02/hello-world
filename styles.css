@@ -81,6 +81,8 @@ h1{
 
 .project {
   margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Contact section */
