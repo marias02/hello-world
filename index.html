@@ -6,25 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Maria Arias-Miranda</title>
   <link rel="stylesheet" href="styles.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" 
-  rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" 
-  crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/434c67e164.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <!-- <header>
-    <nav>
-      <div class="container">
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header> -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init()
+  </script>
   <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -42,67 +40,101 @@
           <li class="nav-item">
             <a class="nav-link" href="#contact">Contact</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Resume</a>
-          </li>
         </ul>
       </div>
     </div>
   </nav>
-
-  <section id="hero">
-    <div class="container">
-      <h2>Maria Arias-Miranda</h2>
-      <h1>Software Engineer</h1>
-    </div>
-  </section>
-
-  <section id="about">
-    <div class="container">
-      <img id="my_story_picture" src="../images/prof_pic_website.JPG" alt="" srcset="">
-      <div class="text-container">
-        <h2>My Story</h2>
-        <p>Unlike other people, I was not born with my career path in mind. As a 
-          matter of fact, it took me several years to find my passion. I went from
-          possible barista to potential make up artist. Until one day, I tried a
-          coding course, just to give it a chance. It was then, that 
-          I realized that I had just found my passion.
-        </p>
-        <br>
-        <p>
-          You see, there is something beautiful about coding: Maybe is because the
-          possibilities are endless, or the idea that you can contribute to wonderful
-          things around the world. I am not entirely sure. But what I do know is,
-          that I want to change the world. 
-          One line of code at a time!
-        </p>
+  <div data-aos="fade-up" data-aos-delay="5000">
+    <section id="hero">
+      <div class="container">
+        <h2>Maria Arias-Miranda</h2>
+        <h1>Software Engineer</h1>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="container">
-      <div class="project">
-        <h3>Retwitter</h3>
-        <p>A twitter clone</p>
-      </div>
-      <div class="project">
-        <h3>Electrabot</h3>
-        <p>An AI chatbot built to compare it with ChatGPT, a more experienced and advanced AI</p>
-      </div>
-    </div>
-  </section>
 
-  <section id="contact">
-    <div class="container">
+  <div data-aos="fade-up">
+    <section id="about">
+      <h2>About Me</h2>
+      <div class="container">
+        <div data-aos="fade-up-right" data-aos-delay="300">
+          <img id="my_story_picture"
+            src="https://res.cloudinary.com/dqwagsh1g/image/upload/v1700081788/maria_webby_em9fym.png" alt=""
+            srcset="" />
+        </div>
+        <div class="text-container">
+          <p>Unlike other people, I was not born with my career path in mind. As a
+            matter of fact, it took me several years to find my passion. I went from
+            possible barista to potential make up artist. Until one day, I tried a
+            coding course, just to give it a chance. It was then, that
+            I realized that I had just found my passion.
+          </p>
+          <br>
+          <p>
+            You see, there is something beautiful about coding: Maybe is because the
+            possibilities are endless, or the idea that you can contribute to wonderful
+            things around the world. I am not entirely sure. But what I do know is,
+            that I want to change the world.
+            One line of code at a time!
+          </p>
+
+          <div id="story_icons">
+            <div data-aos="flip-up" data-aos-duration="4000" data-aos-delay="100">
+              <img src="https://res.cloudinary.com/dqwagsh1g/image/upload/v1700103444/barista_fxav7a.png" />
+            </div>
+            <div data-aos="flip-up" data-aos-duration="3000" data-aos="100">
+              <img src="https://res.cloudinary.com/dqwagsh1g/image/upload/v1700103451/mua_wyxwbo.png" />
+            </div>
+            <div data-aos="flip-up" data-aos-duration="2000" data-aos-delay="100">
+              <img src="https://res.cloudinary.com/dqwagsh1g/image/upload/v1700103447/coder_olnfcs.png" />
+            </div>
+          </div>
+        </div>
+    </section>
+  </div>
+
+  <div data-aos="fade-up">
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="container">
+        <img src="https://res.cloudinary.com/dqwagsh1g/image/upload/v1700088899/retwitter_resized_page_pgs4qw.png" />
+        <div class="project">
+
+          <h3>Retwitter | <a id="repo" href="https://github.com/marias02/retwitter">Repo</a></h3>
+          <p>(Ruby, Ruby on Rails, PostgreSQL, AWS, React & Redux)</p>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div data-aos="fade-up">
+    <section id="contact">
       <h2>Contact Me</h2>
-      <a href="">mariajoseamir@gmail.com</a>
-      <a href="">+1 (732) 912-9240</a>
-      <a href="https://www.linkedin.com/in/maria-arias-miranda-825754223/">LinkedIn</a>
-      <a href="https://github.com/marias02">GitHub</a>
-    </div>
-  </section>
+      <div class="container">
+        <div>
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:maria.ariasm02@gmail.com">maria.ariasm02@gmail.com</a>
+        </div>
+
+        <div>
+          <i class="fa-solid fa-phone"></i>
+          <a href="tell://1-732-912-9240">+1 (732) 912-9240</a>
+        </div>
+
+        <div>
+          <i class="fa-brands fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/maria-arias-miranda-825754223/">LinkedIn</a>
+        </div>
+
+        <div>
+          <i class="fa-brands fa-github"></i>
+          <a href="https://github.com/marias02">GitHub</a>
+        </div>
+
+      </div>
+    </section>
+  </div>
 </body>
 
 </html>
